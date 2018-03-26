@@ -1,0 +1,13 @@
+Project_Name,Subproject,Project_Status,Variables,Description,Participants,Notes
+NIH_Leech_Microbiome,HVI,Active,,Expression of HVI proteins in H.verbana,,
+NIH_Leech_Microbiome,PureCulture,Active,,Microbiome alterations in H.verbana when exposed to bacterial pure cultures through feeding or the environment,,
+NIH_Leech_Microbiome,ContBlood,Active,,H.verbana adults fed contaminated blood,,
+NIH_Leech_Microbiome,Food,Active,,Affect of diet on H.verbana microbiome,,
+NIH_Leech_Microbiome,EnvInteract,Active,,Monitors development of H.verbana microbiome as affected by interactions with environment ,,
+NIH_Leech_Microbiome,Fixative,Active,,Testing fixative procedure for best histological analysis,,
+NIH_Leech_Microbiome,LongTerm,Active,,Long-term effects of feeding on adult H.verbana microbiome,,
+NIH_Leech_Microbiome,Adult,Active,,Monitors fluctuations in the microbiome from H.verbana adults after feeding and starvation,,
+NIH_Leech_Microbiome,Deposit,Active,,Monitors transfer of microbiome from H.verbana adults to cocoons to hatchlings,,
+NIH_Leech_Microbiome,,Active,,,,
+NIH_Leech_Microbiome,WildCollect,Active,,Microbiome of wild-caught adult leeches,,
+NIH_Leech_Microbiome,Hatch,Active,,Monitoring transfer of microbiome from H.verbana cocoon to hatchlings,,

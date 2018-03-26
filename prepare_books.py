@@ -39,8 +39,8 @@ subproject_book.to_csv('Book_Subproject.csv',index=False) # print csv file ready
 
 #Event Book
 event_book_long = log_df.loc[log_df['Status'].isin(['Original','Embed'])] # keep only rows whose 'Status' value == 'Original' or 'Embed'
-event_book = log_df[['Project_Name','Subproject','Website_EventID','Day','Site_ID','Date_Collected','Variable_1','Variable_2','Variable_3','Notes']] # choose columns to keep
-event_book.rename(columns={'Date_Collected':'Date','Website_EventID':'Event_ID'}, inplace=True) # rename (and order) columns to match website csv format
+event_book = log_df[['Project_Name','Subproject','Website_EventID','Day','AnimalSource','Date_Collected','Variable_1','Variable_2','Variable_3','Notes']] # choose columns to keep
+event_book.rename(columns={'Date_Collected':'Date','Website_EventID':'Event_ID', 'AnimalSource': 'Site_ID'}, inplace=True) # rename (and order) columns to match website csv format
 event_book.drop_duplicates(subset={'Event_ID'},keep='first',inplace=True) # Remove duplicate rows so there is only one record per 'Event_ID'
 event_book.to_csv('Book_Event.csv',index=False) # print csv file ready for upload
 
